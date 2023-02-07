@@ -2,6 +2,18 @@
 
 This project is a web application built using the Algorand Python SDK and Flask framework. The app allows users to interact with their Algorand account, showing their balance and allowing them to perform various actions such as creating assets, NFTs, and transactions.
 
+# Installation
+
+- Clone the repository
+
+
+- Install the required packages
+ ```$ pip install -r requirements.txt```
+
+- Run the app
+ ```$ flask --app main run```
+ 
+# Over veiw of the app
 Login page
 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/121616196/217284541-775345d6-f797-4fd4-9632-ea5ea32ff9a1.png">
@@ -30,15 +42,5 @@ in assets u can see the assets u own and u made or u can create a new one
 
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/121616196/217286291-722a85f3-252c-41ac-9f0c-811f12cd382e.png">
 
-# Installation
 
-- Clone the repository
-
-
-- Install the required packages
- ```$ pip install -r requirements.txt```
-
-- Run the app
- ```$ flask --app main run```
- 
- 
+i hope u like it :)
