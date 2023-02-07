@@ -1,7 +1,8 @@
 # Alogrand wallet
 
 This project is a web application built using the Algorand Python SDK and Flask framework. The app allows users to interact with their Algorand account, showing their balance and allowing them to perform various actions such as creating assets, NFTs, and transactions.
-vedio tutorial [here](https://youtu.be/5Bsg4UlZ0x8)
+vedio tutorial.
+[here](https://youtu.be/5Bsg4UlZ0x8).
 # Installation
 
 - Clone the repository
