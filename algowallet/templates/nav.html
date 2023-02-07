@@ -1,0 +1,10 @@
+<nav class="topnav">
+    <a href="{{ url_for('main_bp.createe') }}" {% if request.path==url_for('main_bp.createe') %} class="active" {% endif %}><i class="fa-regular fa-image"> </i> NFT</a>
+    <a href="{{ url_for('main_bp.index') }}" {% if request.path==url_for('main_bp.index') %} class="active"{% endif %}><i class="fa-solid fa-scale-balanced"></i> Balance</a>
+    <a href="{{ url_for('main_bp.send') }}" {% if request.path==url_for('main_bp.send') %} class="active"{% endif %}><i class="fa-solid fa-money-bill-transfer"></i> Send/Receive</a>
+      <a href="{{ url_for('main_bp.transactions') }}" {% if request.path==url_for('main_bp.transactions') %} class="active"{% endif %}><i class="fa-solid fa-calendar"></i> Transactions</a>
+    <a href="{{ url_for('main_bp.assets') }}" {% if request.path==url_for('main_bp.assets') %} class="active"{% endif %} {% if request.path==url_for('main_bp.create') %} class="active" {% endif %}><i class="fa-solid fa-money-bill"></i> Assets</a>
+    {% if current_user.is_authenticated %}
+    <a  class='logout' href="{{ url_for('main_bp.logout') }}"><i class="fa-solid fa-right-from-bracket"></i> Logout </a>
+    {% endif %}
+</nav>
