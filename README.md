@@ -6,8 +6,7 @@ vedio tutorial.
 # Installation
 
 - Clone the repository
-
-
+  ```$ git clone https://github.com/GaryThisSidee/Alogrand_wallet.git```
 - Install the required packages
  ```$ pip install -r requirements.txt```
 
